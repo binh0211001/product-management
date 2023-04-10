@@ -1,0 +1,23 @@
+.indexPage,.tableContentWrapper{
+    margin:0 auto !important;
+    width: calc(100% - 60px);
+}
+.menuAction{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    & > div{
+        width: 160px;
+    }
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.tableContentWrapper table{
+    width: 100%;
+}
+.confirmModal{
+    padding: 10px;
+    border: 4px double black;
+    box-shadow:  2px 2px 5px black;
+}
